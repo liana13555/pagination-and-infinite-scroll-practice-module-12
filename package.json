@@ -8,16 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashotosipyan/GoIT-JS-33.git"
+    "url": "git+https://github.com/liana13555/pagination-and-infinite-scroll-practice-module-12.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ashotosipyan/GoIT-JS-33/issues"
+    "url": "https://github.com/liana13555/pagination-and-infinite-scroll-practice-module-12/issues"
   },
-  "homepage": "https://github.com/ashotosipyan/GoIT-JS-33#readme",
+  "homepage": "https://github.com/liana13555/pagination-and-infinite-scroll-practice-module-12#readme",
   "dependencies": {
+    "babel-loader": "^8.2.2",
     "handlebars": "^4.7.7",
     "lodash": "^4.17.21"
   },

@@ -4,10 +4,10 @@ export const getUsers = (page, limit) => {
   return fetch(baseUrl, {
     method: "GET",
     headers: {
-      "Content-Type": "application/json"
+      "Content-Type": "application/json" // headers - объект, кот.хранит опред. кол-во данных для взаимодействия с бэкендом
     }
   })
-    .then(response => response.json())
-    .then(data => data)
+    .then(response => response.json()) // получает данные и превращает в json, (распарсили данные)
+    .then(data => data)                // получает распарсинные данные и возвращает их
     .catch(e => console.log("oooooo"));
 };
